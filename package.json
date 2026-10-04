@@ -1,0 +1,19 @@
+{
+  "name": "cloudnotes",
+  "version": "1.0.0",
+  "description": "Notes app showcasing cloud compute (Express) and a managed database (MongoDB Atlas)",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  }
+}

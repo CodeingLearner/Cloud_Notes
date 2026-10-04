@@ -1,0 +1,11 @@
+CloudNotes is a Node.js application. This file is informational only;
+Render does not install Node.js dependencies from requirement.txt.
+
+Use package.json and package-lock.json as the dependency manifests.
+Build command: npm ci
+Start command: npm start
+
+Runtime dependency ranges:
+dotenv: ^16.4.7
+express: ^4.21.2
+mongoose: ^8.9.0
